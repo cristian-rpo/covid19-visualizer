@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  .jumbotron {
+    border-radius: 0;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/banner.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+  .loader-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
